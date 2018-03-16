@@ -13,7 +13,9 @@
     "regenerator-runtime": "^0.11.1",
     "ts-jest": "^22.4.1"
   },
+  "test": "jest",
   "jest": {
+    "verbose": true,
     "transform": {
       "^.+\\.tsx?$": "ts-jest"
     },
